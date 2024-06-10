@@ -87,11 +87,10 @@ svg {
     cursor: pointer;
 }
 
-svg:hover {
+/* svg:hover {
     transform: scale(1.2);
-    stroke: hsl(300, 69%, 71%);
     
-}
+} */
 
 
 @media (max-width: 500px) {
