@@ -92,3 +92,66 @@ svg:hover {
     stroke: hsl(300, 69%, 71%);
     
 }
+
+
+@media (max-width: 500px) {
+    body {
+        background-image: url('../images/bg-mobile.svg');
+
+    }
+    
+    .container {
+        margin: 50px;
+    }
+    
+    .hero {
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .header img {
+        width: 150px;
+    }
+    
+    .image img {
+        width: 300px;
+    }
+    
+    .text {
+        margin-top: 0px;
+    
+    }
+    
+    h1 {
+        font-size: 30px;
+        width: 350px;
+    }
+    
+    p {
+        font-size: 16px;
+        margin-top: 30px;
+        width: 300px;
+    }
+    
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    
+
+    
+    .social {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 50px;    
+        padding-bottom: 50px;
+    }
+    
+}
